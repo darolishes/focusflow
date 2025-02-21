@@ -1,0 +1,49 @@
+{
+  "folders": [
+    {
+      "name": "✨ FocusFlow",
+      "path": "."
+    },
+    {
+      "name": "📱 Web App",
+      "path": "apps/web"
+    },
+    {
+      "name": "📚 Docs",
+      "path": "apps/docs"
+    }
+  ],
+  "settings": {
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "files.exclude": {
+      "apps/": true,
+      "packages/": true,
+      "**/node_modules": true,
+      "**/.turbo": true,
+      "**/dist": true,
+      "**/.next": true,
+      "**/tsconfig*.json": true,
+      "**/postcss.config.*": true,
+      "**/tailwind.config.*": true,
+      "**/.eslintrc.*": true,
+      "**/vite.config.*": true,
+      "**/pnpm-lock.yaml": true,
+      "**/.gitignore": true,
+      "**/pnpm-workspace.yaml": true,
+      "**/package.json": true,
+      "**/tsconfig.json": true,
+      "**/tsconfig.node.json": true,
+      "**/eslint.config.js": true,
+      "**/components.json": true,
+      "**/.prettierrc": true,
+      "**/index.html": true,
+      "**/vite-env.d.ts": true
+    }
+  }
+}
