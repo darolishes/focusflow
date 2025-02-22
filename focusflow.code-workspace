@@ -36,7 +36,6 @@
       "**/pnpm-lock.yaml": true,
       "**/.gitignore": true,
       "**/pnpm-workspace.yaml": true,
-      "**/package.json": true,
       "**/tsconfig.json": true,
       "**/tsconfig.node.json": true,
       "**/eslint.config.js": true,
